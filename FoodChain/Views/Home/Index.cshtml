@@ -12,6 +12,10 @@
 
 <body>
     <div class="MainDiv">
+
+        <div class="itemWrapper divTotal">
+            Total Price -  &#x20b9; <label id="tatalPrice">0</label>
+        </div>
         <label>Pizza</label>
         <div class="SubDiv">
             <div class="itemWrapper">
@@ -19,15 +23,16 @@
                     <img src="~/images/FoodChainImg/1.jpg" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Margherita</span>
+                            <span class="itmName">Margherita &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">120</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Classic delight with 100% real mozzarella cheese</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnOnePizza"> Add To Cart</button>
+                            <button id="BtnOnePizza" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdOne" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount"/>
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <a class="Update" href="javascript:; #my-modal">Customize</a>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
                                 <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
@@ -39,15 +44,16 @@
                     <img src="~/images/FoodChainImg/2.jpg" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Cheese n Corn</span>
+                            <span class="itmName">Cheese n Corn &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">150</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">A delectable combination of sweet & juicy golden corn</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnTwoPizza"> Add To Cart</button>
+                            <button id="BtnTwoPizza" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdTwo" hidden>
-                                <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount"/>
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <a class="Update" href="javascript:; #my-modal">Customize</a>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
                                 <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
@@ -59,16 +65,17 @@
                     <img src="~/images/FoodChainImg/3.jpg" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Fresh Veggie</span>
+                            <span class="itmName">Fresh Veggie &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">180</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Delectable combination of onion & capsicum, a veggie lovers pick</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnThreePizza"> Add To Cart</button>
+                            <button id="BtnThreePizza" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdThree" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount"/>
-                                <span class="glyphicon glyphicon-plus"></span>
-                               <span class="glyphicon glyphicon-trash"></span>
+                                <a class="Update" href="javascript:; #my-modal">Customize</a>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
+                                <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
                     </div>
@@ -82,15 +89,16 @@
                     <img src="~/images/FoodChainImg/Sandwhichesone.png" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Veg</span>
+                            <span class="itmName">Veg &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">50</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Classic delight with 100% real mozzarella cheese</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnOnesandwich"> Add To Cart</button>
+                            <button id="BtnOnesandwich" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdOnesandwich" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount" />
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <a class="Update" href="javascript:; #my-modal">Customize</a>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
                                 <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
@@ -102,15 +110,16 @@
                     <img src="~/images/FoodChainImg/sandwichestwo.jpg" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Cheese Veg</span>
+                            <span class="itmName">Cheese Veg &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">80</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Classic delight with 100% real mozzarella cheese</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnTwosandwich"> Add To Cart</button>
+                            <button id="BtnTwosandwich" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdTwosandwich" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount"/>
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <a class="Update" href="javascript:; #my-modal">Customize</a>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
                                 <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
@@ -122,16 +131,17 @@
                     <img src="~/images/FoodChainImg/sandwichesthree.jpg" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Veg Salad</span>
+                            <span class="itmName">Veg Salad &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">90</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Classic delight with 100% real mozzarella cheese</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnThreesandwich"> Add To Cart</button>
+                            <button id="BtnThreesandwich" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdThreesandwich" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount"/>
-                                <span class="glyphicon glyphicon-plus"></span>
-                               <span class="glyphicon glyphicon-trash"></span>
+                                <a class="Update" href="javascript:; #my-modal">Customize</a>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
+                                <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
                     </div>
@@ -145,15 +155,15 @@
                     <img src="~/images/FoodChainImg/cocacolaone.png" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Coca cola</span>
+                            <span class="itmName">Coca cola &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">60</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Classic delight with 100% real mozzarella cheese</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnOneDrinks"> Add To Cart</button>
+                            <button id="BtnOneDrinks" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdOneDrinks" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount" />
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
                                 <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
@@ -162,18 +172,18 @@
             </div>
             <div class="itemWrapper">
                 <div class="PartDiv">
-                    <img src="~/images/FoodChainImg/pepsione.png"/>
+                    <img src="~/images/FoodChainImg/pepsione.png" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Pepsi</span>
+                            <span class="itmName">Pepsi &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">60</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Classic delight with 100% real mozzarella cheese</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnTwoDrinks"> Add To Cart</button>
+                            <button id="BtnTwoDrinks" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdTwoDrinks" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount"/>
-                                <span class="glyphicon glyphicon-plus"></span>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
                                 <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
@@ -185,19 +195,73 @@
                     <img src="~/images/FoodChainImg/spirtone.png" />
                     <div class="DetailsDiv">
                         <div class="itemDescDiv">
-                            <span class="itmName">Spirt</span>
+                            <span class="itmName">Spirt &nbsp;&nbsp;&nbsp; &#x20b9; <label class="lblPrice">60</label></span>
                             <span class="itmdscrptn" title="Classic delight with 100% real mozzarella cheese">Classic delight with 100% real mozzarella cheese</span>
                         </div>
                         <div class="addTocardDiv">
-                            <button id="BtnThreeDrinks"> Add To Cart</button>
+                            <button id="BtnThreeDrinks" class="AddToCard"> Add To Cart</button>
                             <div id="plusMinusPrdThreeDrinks" hidden>
-                                  <span class="glyphicon glyphicon-minus"></span>
-                                <input type="text" class="txtCartCount"/>
-                                <span class="glyphicon glyphicon-plus"></span>
-                               <span class="glyphicon glyphicon-trash"></span>
+                                <span class="glyphicon glyphicon-minus decresePrice"></span>
+                                <input type="text" class="txtCartCount" value="1" />
+                                <span class="glyphicon glyphicon-plus increasePrice"></span>
+                                <span class="glyphicon glyphicon-trash"></span>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="MyPopup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">
+                        Customize
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="DetailsDiv">
+                        <div class="addTocardDiv">
+                            <div id="plusMinusPrdOne" hidden="" style="display: block;">
+                                <span class="glyphicon glyphicon-minus textExtraBredMinus"></span>
+                                <input type="text" class="txtCartCount" value="10" id="textExtraBred">
+                                <span class="glyphicon glyphicon-plus textExtraBredPlus"></span>
+                            </div>
+                            <span class="itmName">Extra Bread</span>
+                        </div>
+                        <div class="addTocardDiv">
+                            <div id="plusMinusPrdOne" hidden="" style="display: block;">
+                                <span class="glyphicon glyphicon-minus textExtraToppMinus"></span>
+                                <input type="text" class="txtCartCount" value="20" id="textExtraToppings">
+                                <span class="glyphicon glyphicon-plus textExtraToppPlus"></span>
+                            </div>
+                            <span class="itmName">Extra Toppings</span>
+                        </div>
+                        <div class="addTocardDiv">
+                            <div id="plusMinusPrdOne" hidden="" style="display: block;">
+                                <span class="glyphicon glyphicon-minus textExtraBredMinus"></span>
+                                <input type="text" class="txtCartCount" value="10" id="textExtraCheese">
+                                <span class="glyphicon glyphicon-plus textExtraBredPlus"></span>
+                            </div>
+                            <span class="itmName">Extra Cheese</span>
+                        </div>
+                        <div class="addTocardDiv">
+                            <div id="plusMinusPrdOne" hidden="" style="display: block;">
+                                <span class="glyphicon glyphicon-minus textExtraBredMinus"></span>
+                                <input type="text" class="txtCartCount" value="10" id="textExtraSauce" />
+                                <span class="glyphicon glyphicon-plus textExtraBredPlus"></span>
+                            </div>
+                            <span class="itmName">Extra Sauce</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" id="btnClosePopup" value="Add" class="btn btn-info" />
+                    <input type="button" id="btnClosePopup" value="Close" class="btn btn-danger" data-dismiss="modal" />
                 </div>
             </div>
         </div>
