@@ -16,7 +16,7 @@
 
     //sandwiches
     $("#BtnOnesandwich").click(function () {
-        $("#BtnOnesandwich").hide();
+        $("#BtnOnesandwich").hide(); 
         $("#plusMinusPrdOnesandwich").show();
     })
     $("#BtnTwosandwich").click(function () {
