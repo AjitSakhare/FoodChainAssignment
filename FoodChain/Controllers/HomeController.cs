@@ -15,6 +15,10 @@ namespace FoodChain.Controllers
             return View();
         } 
 
+        public ActionResult PlaceOrder(OrderDetails dtls)
+        {
+            return View();
+        }
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
