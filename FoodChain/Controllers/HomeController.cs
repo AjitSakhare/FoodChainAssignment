@@ -13,7 +13,7 @@ namespace FoodChain.Controllers
         public IActionResult Index()
         {
             return View();
-        }
+        } 
 
         public IActionResult About()
         {
